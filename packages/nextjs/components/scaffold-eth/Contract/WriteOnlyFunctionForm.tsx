@@ -79,7 +79,7 @@ export const WriteOnlyFunctionForm = ({ abiFunction, onChange, contractAddress }
   const zeroInputs = inputs.length === 0 && abiFunction.stateMutability !== "payable";
 
   return (
-    <div className="py-5 space-y-3 first:pt-0 last:pb-1">
+    <div className="py-5  space-y-3 first:pt-0 last:pb-1">
       <div className={`flex gap-3 ${zeroInputs ? "flex-row justify-between items-center" : "flex-col"}`}>
         <p className="font-medium my-0 break-words">{abiFunction.name}</p>
         {inputs}
@@ -106,7 +106,7 @@ export const WriteOnlyFunctionForm = ({ abiFunction, onChange, contractAddress }
             }`}
             data-tip={`${writeDisabled && "Wallet not connected or in the wrong network"}`}
           >
-            <button className="btn btn-secondary btn-sm" disabled={writeDisabled || isLoading} onClick={handleWrite}>
+            <button className="btn btn-accent btn-sm" disabled={writeDisabled || isLoading} onClick={handleWrite}>
               {isLoading && <span className="loading loading-spinner loading-xs"></span>}
               Send 💸
             </button>
