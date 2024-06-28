@@ -15,7 +15,7 @@ MHGN Scaffold is a integrations repo for adding new features to the MHGN Hoardin
 - 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
 - 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/1171422a-0ce4-4203-bcd4-d2d1941d198b)
+![Debug Contracts tab](https://github.com/moneyhoardersglobalnetwork/mhgn-hoarding-gateway/blob/main/packages/nextjs/public/hoarder.png)
 
 ## Requirements
 
@@ -87,7 +87,7 @@ Vercel yarn vercel:yolo //Deploys to production and skips linting must delete pr
 
 //Check remote origin
 
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+git remote set-url origin https://github.com/moneyhoardersglobalnetwork/mhgn-scaffold.git
 
 git remote -v
 
