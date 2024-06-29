@@ -1,5 +1,5 @@
 {
-  "name": "@se-2/nextjs",
+  "name": "@mhgn-scaffold/nextjs",
   "private": true,
   "version": "0.1.0",
   "scripts": {
@@ -26,6 +26,7 @@
     "@web3auth/web3auth-wagmi-connector": "^4.0.1",
     "blo": "^1.0.1",
     "daisyui": "^3.5.1",
+    "ethers": "^6.13.1",
     "next": "^13.1.6",
     "nextjs-progressbar": "^0.0.16",
     "qrcode.react": "^3.1.0",

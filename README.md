@@ -9,6 +9,10 @@
 
 MHGN Scaffold is a integrations repo for adding new features to the MHGN Hoarding Gateway and other Hoarder Labs products. It can be used to quickly test smart contracts and build frontends or just act as a dash board for interacting with different contracts and networks.
 
+So far ive started integrating the MHGN Hoarding Gateway into MHGN Scaffold once complete we will build games on top of this code base to utilize social logins for gaming.
+
+We come up with a new NFT gaming use case for BOP token. Hoarders will be able to mint WBOP using BOP tokens and then purchase MHGN NFTs that can only be minted using WBOP. We may develop NFT hoarding that rewards WBOP
+
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.

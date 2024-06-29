@@ -40,21 +40,27 @@ export const Header = () => {
         <NavLink href="/">Home</NavLink>
       </li>
       <li>
-        <NavLink href="/debug">
-          <BugAntIcon className="h-4 w-4" />
-          Debug Contracts
-        </NavLink>
-      </li>
-      <li>
-        <NavLink href="/example-ui">
+        <NavLink href="/bop-ui">
           <SparklesIcon className="h-4 w-4" />
-          Example UI
+          BOP UI
         </NavLink>
       </li>
       <li>
-        <NavLink href="/blockexplorer">
+        <NavLink href="/mhgd-ui">
           <MagnifyingGlassIcon className="h-4 w-4" />
-          Block Explorer
+          MHGD UI
+        </NavLink>
+      </li>
+      <li>
+        <NavLink href="/mint-ui">
+          <MagnifyingGlassIcon className="h-4 w-4" />
+          MHGD-DAI Mint
+        </NavLink>
+      </li>
+      <li>
+        <NavLink href="/usdc-mint-ui">
+          <MagnifyingGlassIcon className="h-4 w-4" />
+          MHGD-USDC Mint
         </NavLink>
       </li>
     </>
