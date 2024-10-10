@@ -1,4 +1,5 @@
 import { hardhat } from "wagmi/chains";
+import Image from "next/image";
 import { CurrencyDollarIcon } from "@heroicons/react/24/outline";
 import { HeartIcon } from "@heroicons/react/24/outline";
 import { SwitchTheme } from "~~/components/SwitchTheme";
@@ -34,7 +35,7 @@ export const Footer = () => {
           <div className="flex justify-center items-center gap-2 text-sm w-full">
             <div className="text-center">
               <a
-                href="https://github.com/scaffold-eth/se-2"
+                href="https://github.com/moneyhoardersglobalnetwork/mhgn-scaffold"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
@@ -49,12 +50,12 @@ export const Footer = () => {
               </p>
               <a
                 className="flex justify-center items-center gap-1"
-                href="https://buidlguidl.com/"
+                href="https://github.com/moneyhoardersglobalnetwork/hoarderville_university"
                 target="_blank"
                 rel="noreferrer"
               >
-                <BuidlGuidlLogo className="w-3 h-5 pb-1" />
-                <span className="underline underline-offset-2">BuidlGuidl</span>
+                <span className="underline underline-offset-2">
+                  Hoarder Labs</span>
               </a>
             </div>
             <span>·</span>

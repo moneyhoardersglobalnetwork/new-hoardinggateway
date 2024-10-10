@@ -9,7 +9,7 @@ import { useScaffoldContractWrite } from "~~/hooks/scaffold-eth";
 export const ApproveBop = () => {
   const [visible, setVisible] = useState(true);
   const [amount, approve_amount] = useState("");
-  const address = "0xB2c6F1f46944bd34f26363bAb3848aCB8b8f546d";
+  const address = "0x0860A1883FA630Beb62a51482f94Fecf63937166";
 
   const { writeAsync, isLoading } = useScaffoldContractWrite({
     contractName: "BopToken",
@@ -31,7 +31,7 @@ export const ApproveBop = () => {
               <input
                 type="uint256"
                 placeholder="Amount"
-                className="input font-bai-jamjuree w-full px-5 bg-[url('/assets/background.jpeg')] bg-[length:100%_100%] border border-primary text-black text-lg sm:text-2xl placeholder-black uppercase"
+                className="input font-bai-jamjuree w-full px-5 bg-[url('/assets/background.jpeg')] bg-[length:100%_100%] border border-primary text-white text-lg sm:text-2xl placeholder-white uppercase"
                 onChange={e => approve_amount(e.target.value)}
               />
               <div className="flex rounded-full border border-primary p-1 flex-shrink-0">
@@ -52,6 +52,7 @@ export const ApproveBop = () => {
                 </div>
               </div>
             </div>
+            You must approve the BOP Hoarding contract before hoarding tokens!
           </div>
         </div>
       </div>

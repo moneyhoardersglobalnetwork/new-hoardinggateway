@@ -51,7 +51,7 @@ export const ContractInteraction = () => {
             <input
               type="text"
               placeholder="Write your greeting here"
-              className="input font-bai-jamjuree w-full px-5 bg-[url('/assets/background.jpeg')] bg-[length:100%_100%] border border-primary  text-black text-lg sm:text-2xl placeholder-black uppercase"
+              className="input font-bai-jamjuree w-full px-5 bg-[url('/assets/background.jpeg')] bg-[length:100%_100%] border border-primary  text-black text-lg sm:text-2xl placeholder-white uppercase"
               onChange={e => setNewGreeting(e.target.value)}
             />
             <div className="flex rounded-full border border-primary p-1 flex-shrink-0">
@@ -75,7 +75,7 @@ export const ContractInteraction = () => {
 
           <div className="mt-4 flex gap-2 items-start">
             <span className="text-sm leading-tight">Price:</span>
-            <div className="badge badge-warning">0.01 ETH + Gas</div>
+            <div className="badge badge-warning">0.01 POL + Gas</div>
           </div>
         </div>
       </div>

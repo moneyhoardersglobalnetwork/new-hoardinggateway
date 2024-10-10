@@ -89,10 +89,11 @@ Vercel yarn vercel:yolo //Deploys to production and skips linting must delete pr
 
 ## Github pushing Git Hub Staging, Commiting, Pushing //Commands for updating repo on github(Build this out)
 
+//Set remote origin
+
+git remote set-url origin https://github.com/moneyhoardersglobalnetwork/new-hoardinggateway.git
+
 //Check remote origin
-
-git remote set-url origin https://github.com/moneyhoardersglobalnetwork/mhgn-scaffold.git
-
 git remote -v
 
 git add . //adds modified files to commit# mhgn-hoarding-gateway
@@ -102,3 +103,6 @@ git commit -m "update from local" // Commit your changes to be pushed to repo
 Use the --no-verify option to skip git commit hooks, e.g. git commit -m "commit message" --no-verify . When the --no-verify option is used, the pre-commit and commit-msg hooks are bypassed. Copied! You can also use the -n option, which is short for --no-verify .
 
 git push //push to repo //Push updates to repo (main)
+
+## Latest Updates //Any New Tweaks that may need to be addressed
+We are currently upgrading the BOP UI with a more simple Hoard and UnHoard UI using the MustHodl repo and its components.
